@@ -23,7 +23,7 @@ The data is prepared in the following steps:
 
 A tokenized data chunk will be a jsonl file like this:
 
-```json
+```
 {"token_ids": [660, 29901, ...(more token ids)..., 29901], "source": "c4"} # first sample in chunk
 {"token_ids": [29896, 29946, ...(more token ids)..., 13], "source": "arxiv"} # second sample in chunk
 ```
